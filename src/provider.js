@@ -310,7 +310,7 @@ class StorytelProvider {
         try {
             const response = await axios.get(this.baseBookUrl, {
                 params: {
-                    bookId: bookId,
+                    consumableId: bookId,
                     request_locale: locale
                 },
                 headers: {
